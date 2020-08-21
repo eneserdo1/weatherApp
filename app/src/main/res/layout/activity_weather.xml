@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_marginVertical="0dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <TextView
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#455a64"
+        android:layout_margin="10dp"
+        android:id="@+id/sehirTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şehir"/>
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/ımage"
+        />
+    <TextView
+        android:textSize="36sp"
+        android:layout_margin="10dp"
+        android:textColor="#333F45"
+        android:id="@+id/sicaklikTv"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sıcaklık"
+        />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_margin="7dp"
+        android:textColor="#455a64"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/acıklamaTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Açıklama"
+        />
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#455a64"
+        android:layout_margin="7dp"
+        android:id="@+id/weatherTv"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durum"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Güncelleme Zamanı"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
