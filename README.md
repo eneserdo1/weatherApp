@@ -5,3 +5,7 @@
 <li> The data was taken in the JSON type with an http request.</li>
 <li> Received JSON data has been parsed.</li>
  
+ 
+ ![weather1](https://user-images.githubusercontent.com/60261458/92130611-992bee00-ee0d-11ea-83cd-62aa10da4133.png)
+
+ 
