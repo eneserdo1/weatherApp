@@ -6,6 +6,6 @@
 <li> Received JSON data has been parsed.</li>
  
  
- ![weather1](https://user-images.githubusercontent.com/60261458/92130611-992bee00-ee0d-11ea-83cd-62aa10da4133.png)
+![weather11](https://user-images.githubusercontent.com/60261458/92130754-c7113280-ee0d-11ea-8001-e30ad8be1311.png)
 
  
